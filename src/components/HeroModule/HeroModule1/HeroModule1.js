@@ -8,9 +8,9 @@ const HeroModule1 = (props) => {
         imgSrc
     } = props
     return (
-            <div class='w-full h-full flex flex-col-reverse bg-[#e9e9e9] md:flex-row justify-center'>
+            <div class='flex flex-col-reverse bg-[#e9e9e9] md:flex-row justify-center'>
                 <div class='w-full flex justify-center flex-col px-3 py-2 self-center flex-wrap sm:w-full md:w-2/4'>
-                    <h1 class="w-full font-bold text-left py-5">Timeless and comfy</h1>
+                    <h1 class="w-full font-bold text-left py-5">{heading}</h1>
                     <p class="w-full text-left font-normal"> A symphony of beautiful earthy shades with an open toe,
                         Maroon Studded Heels made of PU leather are sustainable, super comfortable and super stylish.</p>
                 </div>

@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  prefix: ["weaverz-ai-"],
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
+
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

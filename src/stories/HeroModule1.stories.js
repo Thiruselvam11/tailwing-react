@@ -8,7 +8,7 @@ export default{
     component: HeroModule1
 };
 
-const Template =  (args) =>{
+const Template = (args) =>{
     return <HeroModule1 {...args}/>;
 };
 

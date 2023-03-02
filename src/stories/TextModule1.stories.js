@@ -1,6 +1,7 @@
 import React from "react";
 import TextModule1 from "../components/TextModule/TextModule1/TextModule1";
 
+
 export default{
     title: "Components/TextModule1",
     component:TextModule1
